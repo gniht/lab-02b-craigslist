@@ -9,15 +9,20 @@ input {
   font-size: 18px;
 }
 
+/* ---calendar table--- */
 table {
-  display: flex;
-  align-items: center;
-  justify-content: center;  
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid darkslategray;  
 }
-
-tr{
-  display: flex;
-  font-size: 1.2em;   
+thead tr{
+  background-color: lightgrey;  
+}
+td {   
+  font-size: 1.2em;
+  padding: 2px;  
+  text-align: center; 
+  border: 1px solid darkslategray;    
 }
 
 .container {
@@ -33,6 +38,34 @@ tr{
 .left-sidebar {
   flex: 1;
   border: 1px solid grey;
+}
+
+.center-content-main {
+  display: flex;
+  justify-content: center;  
+}
+
+.center-content-main section {
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+}
+
+.topics {
+  display: flex;
+  
+}
+
+.left-column-main {
+  flex: 2;      
+}
+
+.middle-column-main {
+  flex: 2;  
+}
+
+.right-column-main {
+  flex: 1;  
 }
 
 .center-content {
@@ -66,4 +99,11 @@ ul {
   padding: 5px;
   margin: 10px 0;
   font-size: 1.2em;
+}
+
+#change-language {
+  color: black;
+  font-size: 1.2em;
+  padding: 2px;
+  margin: 10px;
 }
