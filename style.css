@@ -4,6 +4,22 @@
   padding: 0;
 }
 
+input {
+  margin: 10px;
+  font-size: 18px;
+}
+
+table {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+tr{
+  display: flex;
+  font-size: 1.2em;   
+}
+
 .container {
   display: flex;
   text-align: center;
