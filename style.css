@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  height: 100%;
+  align-items: stretch;    
+  margin: 15px;
+  padding: 5px;     
+}
+
+.left-sidebar {
+  flex: 1;
+  border: 1px solid grey;
+}
+
+.center-content {
+  flex: 4;
+  border: 1px solid grey;
+}
+
+.right-sidebar {
+  flex: 1;
+  border: 1px solid grey;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+  margin: 10px 0;
+  font-size: 1.2em;
+}
