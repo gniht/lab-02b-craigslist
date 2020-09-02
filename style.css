@@ -1,4 +1,5 @@
 * {
+  color: blue;
   margin: 0;
   padding: 0;
 }
@@ -20,7 +21,23 @@
 
 .center-content {
   flex: 4;
-  border: 1px solid grey;
+  border: 1px solid grey;  
+}
+
+.center-title {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.center-title h1 {
+  margin: 0 10px;
+}
+
+.center-title h3{
+  padding: 5px;
+  margin: 0 5px;  
 }
 
 .right-sidebar {
